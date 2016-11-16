@@ -116,7 +116,7 @@ class BaseConfig(LocalConfig):
     },
     'COMPANY_PHONE':'714-783-6369',
     'CONTACT_NAME':'Roux',
-    'CONTACT_EMAIL':'kyle@level2designs.com',
+    'CONTACT_EMAIL':'shydesky@gmail.com',
     }
 
 
@@ -172,5 +172,5 @@ class DevelopmentConfig(BaseConfig):
 class TestingConfig(BaseConfig):
     TESTING = True
     SQLALCHEMY_ECHO = False
-    SQLALCHEMY_DATABASE_URI = 'mysql://test:test@174.140.227.137:3306/test_test5'
+    SQLALCHEMY_DATABASE_URI = 'mysql://root:1234@127.0.0.1:3306/second'
 

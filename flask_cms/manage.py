@@ -48,9 +48,9 @@ def init_data():
     except:
         pass
 
-    user = User.query.filter(User.email=='kyle@level2designs.com').first()
+    user = User.query.filter(User.email=='shydesky@gmail.com').first()
     if user is None:
-       user = User(username='kyle', email='kyle@level2designs.com', password='test')
+       user = User(username='shydesky', email='shydesky@gmail.com', password='1234')
     user.save()
 
 
